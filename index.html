@@ -11,14 +11,14 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Marcellus&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Marcellus&display=swap">
 <style>
 /* Layout: three painted envelope frames crossfade into the painted invitation; the tile-frame countdown follows. Single-theme by design. */
 :root{
   --ink:#3d3a24; --ink-soft:#6b6545; --rose:#a4533f; --paper:#f3ead8; --ground:#f6f0e4; --gold:#b8955a;
   --display:"Cormorant Garamond","Cormorant",Garamond,"Times New Roman",serif;
   --label:"Marcellus","Trajan Pro",Georgia,serif;
-  --arabic:"Amiri","Noto Naskh Arabic","Geeza Pro","Times New Roman",serif;
+  --arabic:"El Messiri","Geeza Pro","Noto Sans Arabic",Tahoma,sans-serif;
   /* text box inside each painting, as % of the image */
   --inv-top:34%; --inv-h:38.5%; --inv-w:54%; --inv-x:50.5%;
   --cd-top:22%; --cd-h:55.6%; --cd-w:42%;
@@ -83,14 +83,15 @@ html[lang="ar"] body{font-family:var(--arabic)}
 html[lang="ar"] .label,html[lang="ar"] .date .side,html[lang="ar"] .map,html[lang="ar"] .hint{font-family:var(--arabic);letter-spacing:0!important;text-transform:none}
 html[lang="ar"] .label{font-size:3.2cqw;line-height:1.55}
 html[lang="ar"] .date .side{font-size:3.6cqw}
-html[lang="ar"] .basmala{max-width:100%;white-space:nowrap;font-style:normal;font-size:4.2cqw;font-weight:700;color:var(--ink)}
-html[lang="ar"] .names .n{font-size:9.4cqw;line-height:1.05;font-weight:700}
-html[lang="ar"] .names .amp{font-style:normal;font-size:5.2cqw;line-height:.9}
+html[lang="ar"] .basmala{max-width:100%;white-space:nowrap;font-style:normal;font-size:4cqw;font-weight:500;color:var(--ink-soft)}
+html[lang="ar"] .names .n{font-size:10cqw;line-height:1.15;font-weight:600}
+html[lang="ar"] .names .amp{font-style:normal;font-size:5.4cqw;line-height:.95;font-weight:500}
 html[lang="ar"] .time,html[lang="ar"] .unit b{font-style:normal}
 html[lang="ar"] .time{font-size:3.9cqw}
-html[lang="ar"] .date .day{font-size:8.6cqw}
-html[lang="ar"] .venue{font-size:5.4cqw;font-weight:700}
-html[lang="ar"] .countdown h2{font-size:7.4cqw;font-weight:700}
+html[lang="ar"] .date .day{font-size:8.8cqw;font-weight:500}
+html[lang="ar"] .unit b{font-weight:500}
+html[lang="ar"] .venue{font-size:5.4cqw;font-weight:600}
+html[lang="ar"] .countdown h2{font-size:7.2cqw;font-weight:600}
 html[lang="ar"] .unit span{font-size:3.4cqw}
 html[lang="ar"] .map{font-size:3.4cqw;padding:7px 18px 9px}
 html[lang="ar"] .hint{font-size:15px}
